@@ -24,6 +24,12 @@ This project demonstrates a complete workflow from user registration/login to se
 - Tailwind CSS
 - Fetch API for HTTP requests
 
+##**dotenv**
+PORT=5001
+DATABASE_URL=postgresql://<DB_USERNAME>:<DB_PASSWORD>@localhost:5432/<DB_NAME>
+JWT_SECRET=<YOUR_SECRET_KEY>
+
+
 **Frontend Packages (package.json)**:
 ```json
 {
